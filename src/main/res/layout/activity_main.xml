@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joselvc.miprimerproyecto.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="384dp"
+        android:layout_height="526dp"
+        android:keepScreenOn="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/marcianito_miprimer_proyecto_android"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="381dp"
+        android:layout_height="61dp"
+        android:gravity="center_horizontal"
+        android:text="@string/title_text"
+        android:textColor="@android:color/white"
+        android:textSize="?attr/listPreferredItemHeightSmall"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:background="@android:color/holo_blue_light"
+        android:hapticFeedbackEnabled="false"
+        android:text="@string/button_text"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+
+</android.support.constraint.ConstraintLayout>
